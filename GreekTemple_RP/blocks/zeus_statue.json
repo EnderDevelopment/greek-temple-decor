@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "greektemple:zeus_statue"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.greektemple.zeus_statue",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "zeus_marble",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

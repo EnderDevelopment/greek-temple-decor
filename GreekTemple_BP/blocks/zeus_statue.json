@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "greektemple:zeus_statue",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.decorated_stone"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "Zeus Statue",
+      "minecraft:loot": "loot_tables/greektemple/zeus_statue.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 360
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:map_color": "#e9e6e1",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "zeus_marble",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:geometry": "geometry.greektemple.zeus_statue",
+      "minecraft:block_light_absorption": 15
+    }
+  }
+}

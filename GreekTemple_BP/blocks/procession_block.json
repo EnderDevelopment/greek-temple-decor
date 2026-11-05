@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "greektemple:procession_block",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.decorated_stone"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "Procession Relief",
+      "minecraft:loot": "loot_tables/greektemple/procession_block.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30
+      },
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#ece9e3",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "marble_procession",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": "geometry.greektemple.block",
+      "minecraft:block_light_absorption": 15
+    }
+  }
+}

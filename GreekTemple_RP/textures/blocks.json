@@ -1,0 +1,29 @@
+{
+  "resource_pack_name": "Greek Temple Decorations",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "zeus_marble": {
+      "textures": "textures/blocks/zeus_marble"
+    },
+    "marble_meander": {
+      "textures": "textures/blocks/marble_meander"
+    },
+    "marble_warrior": {
+      "textures": "textures/blocks/marble_warrior"
+    },
+    "marble_procession": {
+      "textures": "textures/blocks/marble_procession"
+    },
+    "marble_chariot": {
+      "textures": "textures/blocks/marble_chariot"
+    },
+    "marble_acanthus": {
+      "textures": "textures/blocks/marble_acanthus"
+    },
+    "marble_floral": {
+      "textures": "textures/blocks/marble_floral"
+    }
+  }
+}

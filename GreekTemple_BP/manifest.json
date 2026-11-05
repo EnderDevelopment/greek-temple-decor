@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Greek Temple Decorations",
+    "description": "Ancient Greek temple decorations: Zeus statue and marble frieze blocks",
+    "uuid": "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeee1",
+      "description": "Greek Temple Decorations behavior pack",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "bbbbbbbb-cccc-4ddd-9eee-ffffffffffff",
+      "version": [1, 0, 0]
+    }
+  ]
+}

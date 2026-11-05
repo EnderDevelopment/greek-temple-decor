@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Greek Temple Decorations Resources",
+    "description": "Textures, models and geometry for the Greek temple decorations",
+    "uuid": "bbbbbbbb-cccc-4ddd-9eee-ffffffffffff",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "bbbbbbbb-cccc-4ddd-9eee-fffffffffff0",
+      "description": "Greek Temple Decorations resource pack",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee",
+      "version": [1, 0, 0]
+    }
+  ]
+}

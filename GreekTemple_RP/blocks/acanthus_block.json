@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "greektemple:acanthus_block"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.greektemple.block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "marble_acanthus",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

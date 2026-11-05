@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "greektemple:procession_block"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.greektemple.block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "marble_procession",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

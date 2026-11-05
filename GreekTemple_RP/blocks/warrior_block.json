@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "greektemple:warrior_block"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.greektemple.block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "marble_warrior",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}
